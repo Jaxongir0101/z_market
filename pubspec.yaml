@@ -1,0 +1,83 @@
+name: z_pay
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 3.7.2
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  local_auth: ^2.1.0
+  dio: ^4.0.4
+  flutter_bloc: ^7.0.1
+  device_info_plus: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+  flutter_carousel_slider: ^1.0.8
+  hidable: ^1.0.2
+  dots_indicator: ^2.1.0
+  provider: ^6.0.3
+  phonenumbers: ^1.1.0
+  mask_text_input_formatter: ^2.3.0
+  circular_countdown_timer: ^0.2.2
+  qr_code_scanner: ^1.0.0
+  credit_card_scanner: ^1.0.4
+  sqflite: ^2.0.3
+  path_provider: ^2.0.11 
+  flutter_screen_lock: ^7.0.3
+  flutter_svg: ^1.1.1+1
+  carousel_slider: ^4.1.1
+  shared_preferences: ^2.0.15
+  
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/splash/ 
+    - assets/images/profile/
+    - assets/images/faq/
+    - assets/images/payments/
+    - assets/images/profile/images/
+    - assets/images/profile/profile_icons/
+    - assets/images/instruction/
+    - assets/images/login/
+    - assets/images/myID/
+    - assets/images/home/
+    - assets/images/bottomNavigationBar/
+    - assets/images/dogovor/
+    - assets/images/SideBar/
+    - assets/images/status/
+    - assets/images/notification/
+    - assets/images/card/
+    - assets/images/partner/
+    - assets/images/card/cards/
+    - assets/images/
+    - assets/images/password/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/profile/HindSiliguri-Medium.ttf
+          style: italic
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/home/Mont-Light.ttf
+          style: italic
+
